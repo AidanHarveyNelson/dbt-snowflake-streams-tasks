@@ -5,4 +5,5 @@ sources:
     database: "{{ target.database }}"
     schema: "{{ target.schema }}"
     tables:
-      - name: testing
+      - name: testing_source
+      - name: testing_ref

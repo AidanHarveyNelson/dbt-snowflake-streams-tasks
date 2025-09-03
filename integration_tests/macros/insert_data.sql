@@ -1,6 +1,6 @@
 {% macro insert_data() %}
 
-    {% set test_table  = [target.database, target.schema, 'testing']|join('.') %}
+    {% set test_table  = [target.database, target.schema, 'testing_source']|join('.') %}
 
     {% set insert_data_sql %}
         begin;
