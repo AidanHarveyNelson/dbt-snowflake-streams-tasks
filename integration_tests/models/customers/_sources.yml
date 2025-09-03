@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: customers
+    database: "{{ target.database }}"
+    schema: "{{ target.schema }}"
+    tables:
+      - name: testing_source
+      - name: testing_ref
